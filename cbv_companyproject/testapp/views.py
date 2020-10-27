@@ -2,6 +2,7 @@ from django.shortcuts import render
 from testapp.models import Company
 from django.views.generic import ListView,DetailView,CreateView,UpdateView,DeleteView
 from django.core.urlresolvers import reverse_lazy
+# from django.views.generic.base import TemplateView
 
 # Create your views here.
 class CompanyListView(ListView):
